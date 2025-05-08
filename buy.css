@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buying-card {
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 18px 18px 12px 18px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  }
+  .buying-tabs {
+    display: flex;
+    border-bottom: 2px solid #e3e6e6;
+    margin-bottom: 10px;
+  }
+  .buying-tabs span {
+    padding: 8px 18px;
+    cursor: pointer;
+    color: #555;
+  }
+  .buying-tabs .active {
+    color: #007185;
+    border-bottom: 3px solid #007185;
+    font-weight: bold;
+  }
+  .price-section {
+    font-size: 2rem;
+    color: #111;
+    margin-bottom: 2px;
+  }
+  .price-section .unit {
+    font-size: 0.9rem;
+    color: #555;
+    margin-left: 4px;
+  }
+  .free-returns {
+    color: #007185;
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  .delivery-info {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+  .delivery-info .free-delivery {
+    color: #007600;
+    display: block;
+  }
+  .delivery-info .location {
+    color: #007185;
+    font-size: 0.95rem;
+  }
+  .stock {
+    color: #007600;
+    font-weight: bold;
+    margin: 10px 0 8px 0;
+    font-size: 1.1rem;
+  }
+  .quantity {
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+  .add-to-cart, .buy-now {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  .add-to-cart {
+    background: #ffd814;
+    color: #111;
+  }
+  .buy-now {
+    background: linear-gradient(90deg, #ffa41c, #ff9900);
+    color: #fff;
+  }
+  .payment-methods {
+    margin: 10px 0 8px 0;
+    font-size: 0.98rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .pay-icon {
+    height: 28px;
+    vertical-align: middle;
+  }
+  .details {
+    font-size: 0.93rem;
+    color: #444;
+    margin-top: 10px;
+  }
+  .details b {
+    color: #111;
+  }
+  .details .returns, .details .secure {
+    color: #007185;
+  }
+  .details a {
+    color: #007185;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
